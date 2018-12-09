@@ -1,0 +1,16 @@
+body, #app, html {
+	width: 100%;
+	height: 100%;
+  margin: 0;
+}
+
+#app {
+	color: white;
+	background: url('../images/bg.jpg');
+	background-repeat: round;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

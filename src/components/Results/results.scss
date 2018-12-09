@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-top: none;
+  padding: 5px;
+  .column {
+    width: calc(100%/3);
+    text-align: center;
+  }
+}
+.row:first-child {
+  border-top: 1px solid white;
+}

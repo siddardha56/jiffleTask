@@ -1,0 +1,21 @@
+.answerList {
+  padding: 0;
+  list-style-position: inside;
+  .answer {
+    margin: 5px 0px;
+  }
+}
+
+.optionsWrapper {
+  display: flex;
+  justify-content: center;
+  .option {
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin: 10px;
+  }
+  .option:hover {
+    color: black;
+    background: white;
+  }
+}
